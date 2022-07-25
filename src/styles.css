@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #e9ffe9;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 70vh;
+}
+
+.center-col {
+  flex: 1;
+  overflow-y: scroll;
+  height: 70vh;
+  background-color: #e9ffe9;
+}
+
+.right-col {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-color: #e9ffe9;
+}
